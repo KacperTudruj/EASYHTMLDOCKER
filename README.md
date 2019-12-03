@@ -1,10 +1,10 @@
-# my_lamp
+# Test
 Issen docker LAMP conf
 
+https:	git clone https://github.com/KacperTudruj/EASYHTMLDOCKER.git
+or 
+ssh:	git clone git@github.com:KacperTudruj/EASYHTMLDOCKER.git
 
-sudo curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-sudo chmod 777 /usr/local/bin/docker-compose 
-docker-compose up
+docker-compose up -d 
 
 
-docker run --rm -it --name dcv -v $(pwd):/input pmsipilot/docker-compose-viz render -m image docker-compose.yml
